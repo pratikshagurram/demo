@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:latest
 COPY . /usr/share/nginx/html
 MAINTAINER PratikshaMohan.Gurram@infineon.com
 LABEL "Date"="2023-07-15"
